@@ -1072,7 +1072,15 @@ nav {
         width: 40px;
         height: 40px;
     }
-
+    .faqbox {
+        width: 95%;
+    }
+    .faqbox h3{
+        font-size: medium;
+    }
+    .faqbox h4{
+        font-size: small;
+    }
 }
 
 @media screen and (max-width:557px) {
@@ -1121,11 +1129,13 @@ nav {
         padding: 8px 2px;
         font-size: x-small;
     }
-
+    .complexinputhead {
+        padding:15px 10px
+    }
     .ci,
     .editbtn {
-        padding: 5px 4px;
-        font-size: small;
+        padding: 4px 4px;
+        font-size: 12.2px;
     }
 
     #selecttypeinput select {
